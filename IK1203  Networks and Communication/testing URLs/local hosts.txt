@@ -1,0 +1,35 @@
+websties to test
+
+-> Daytime
+http://localhost:8888/ask?hostname=time.nist.gov&port=13
+
+
+-> Daytime
+http://localhost:8888/ask?hostname=java.lab.ssvl.kth.se&port=13
+
+
+-> Whois
+http://localhost:8888/ask?hostname=whois.iis.se&port=43&string=rakin
+
+-> Whois
+http://localhost:8888/ask?hostname=whois.internic.net&port=43&string=rakin
+
+
+-> Echo
+http://localhost:8888/ask?hostname=java.lab.ssvl.kth.se&port=7&string=rakin
+
+-> Discard
+http://localhost:8888/ask?hostname=java.lab.ssvl.kth.se&port=9&string=rakin
+
+-> Chargen
+http://localhost:8888/ask?hostname=java.lab.ssvl.kth.se&port=19
+
+zipping
+zip task3.zip task3/tcpclient/TCPClient.java task3/HTTPAsk.java
+
+
+
+
+
+
+
